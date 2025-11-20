@@ -239,6 +239,16 @@ Add match-level xG and shot maps when appropriate data is available
 
 Wrap the analysis in a simple Streamlit or Dash app for interactive exploration
 
+## Data Source
+
+**FBref / StatsBomb**  
+
+All match-level and player-level statistics (minutes played, goals, assists, shots, xG, key passes, progressive passes, defensive actions, etc.) were collected from FBref’s public StatsBomb dataset.  
+  https://fbref.com/en/
+
+*Data used only for educational, non-commercial analysis.*
+
+
 ## License
 
 This project is released under the MIT License.
