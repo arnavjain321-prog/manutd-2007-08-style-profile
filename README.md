@@ -100,7 +100,49 @@ The radar shows how their profiles complemented each other within the same front
 
 ---
 
-## 5. Individual Player Radars
+## 5. Visualizations
+
+Below are the main visuals included in this analysis.
+
+### Goals per 90
+
+![Goals per 90 – Manchester United Attackers (2007/08)](plots/goals_per90.png)
+
+This bar chart compares each forward’s goals per 90 minutes, highlighting Ronaldo’s elite output and the secondary contribution from Saha, Rooney, and Tevez.
+
+### Shots per 90
+
+![Shots per 90 – Manchester United Attackers (2007/08)](plots/shots_per90.png)
+
+Here we compare shot volume per 90. Ronaldo leads the unit, with Rooney and Tevez also taking on significant shooting responsibility, while Giggs and Campbell have much lower volume.
+
+### Shot Volume vs Finishing
+
+![Shot Volume vs Finishing – 2007/08 Attackers](plots/volume_vs_conversion.png)
+
+This scatter plot maps **shots per 90** against **goal conversion (goals / shots)**.  
+It shows which forwards pair high volume with strong efficiency (Ronaldo, Saha, Tevez), and which profiles tilt more toward volume than finishing.
+
+### Radar Profiles
+
+#### Overlay – Ronaldo vs Rooney vs Tevez
+
+![Attacking & Defensive Radar – Ronaldo vs Rooney vs Tevez (2007/08)](plots/radar_three_forwards.png)
+
+This overlay radar compares the three main forwards across attacking and defensive metrics, showing Ronaldo’s all-round dominance, Rooney’s work rate and link play, and Tevez’s balanced profile.
+
+#### Individual Forward Profiles
+
+![Cristiano Ronaldo – Attacking & Defensive Profile (2007/08)](plots/radar_ronaldo.png)
+
+![Wayne Rooney – Attacking & Defensive Profile (2007/08)](plots/radar_rooney.png)
+
+![Carlos Tevez – Attacking & Defensive Profile (2007/08)](plots/radar_tevez.png)
+
+Each individual radar highlights how their roles differ within the same attacking unit, combining shooting, chance creation, and defensive work.
+
+
+## 6. Individual Player Radars
 
 Separate radars are created for:
 
