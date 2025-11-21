@@ -253,15 +253,9 @@ All match-level and player-level statistics (minutes played, goals, assists, sho
 
 This project is released under the MIT License.
 
----
+Contact
 
-## Contact
-
-**Arnav Jain**  
-Master of Science in Data Science  
-University of Virginia  
-
-**LinkedIn:** https://www.linkedin.com/in/arnavjain2026/
+Arnav Jain Master of Science in Data Science, University of Virginia LinkedIn: https://www.linkedin.com/in/arnavjain2026/
 
 For collaboration or football-analytics opportunities, feel free to reach out.
 
