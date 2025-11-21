@@ -254,7 +254,3 @@ LinkedIn: https://www.linkedin.com/in/arnavjain2026/
 For football-analytics collaboration or opportunities, feel free to reach out.
 
 
-
-
-│
-├── LIC── README.md
