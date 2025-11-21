@@ -165,38 +165,43 @@ Manchester United’s 2007/08 forward line thrived due to clear role specializat
 Giggs and Nani added width, crossing, and attacking rotation.
 
 The balance of volume (Ronaldo), work rate (Rooney), and efficiency (Tevez) produced one of the league’s most effective attacking units.
-
----
 ---
 
 ## Repository Structure
 
 manutd-2007-08-style-profile/
-│
 ├── data/
-│   └── raw/
-│       ├── manutd_2007_08_matches_raw.csv
-│       ├── manutd_2007_08_misc.csv
-│       ├── manutd_2007_08_playing_time.csv
-│       └── manutd_2007_08_shooting.csv
-│
+│ └── raw/
+│ ├── manutd_2007_08_matches_raw.csv
+│ ├── manutd_2007_08_misc.csv
+│ ├── manutd_2007_08_playing_time.csv
+│ └── manutd_2007_08_shooting.csv
 ├── notebooks/
-│   └── 02_attack_profile.ipynb
-│
+│ └── 02_attack_profile.ipynb
 ├── plots/
-│   ├── goals_per90.png
-│   ├── shots_per90.png
-│   ├── volume_vs_conversion.png
-│   ├── radar_three_forwards.png
-│   ├── radar_ronaldo.png
-│   ├── radar_rooney.png
-│   └── radar_tevez.png
-│
+│ ├── goals_per90.png
+│ ├── shots_per90.png
+│ ├── volume_vs_conversion.png
+│ ├── radar_three_forwards.png
+│ ├── radar_ronaldo.png
+│ ├── radar_rooney.png
+│ └── radar_tevez.png
 ├── reports/
-│   └── (placeholder)
-│
+│ └── (placeholder)
 ├── LICENSE
 └── README.md
+
+
+---
+
+## ✔ FIX #2: Add a clean break *after* the repo block
+
+Paste this **right after** the code block:
+
+```markdown
+---
+
+## How to Run the Analysis
 
 ## How to Run the Analysis
 
