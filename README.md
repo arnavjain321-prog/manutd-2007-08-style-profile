@@ -169,60 +169,52 @@ The balance of volume (Ronaldo), work rate (Rooney), and efficiency (Tevez) prod
 
 ## Repository Structure
 
-manutd-2007-08-style-profile/
-├── data/
-│ └── raw/
-│ ├── manutd_2007_08_matches_raw.csv
-│ ├── manutd_2007_08_misc.csv
-│ ├── manutd_2007_08_playing_time.csv
-│ └── manutd_2007_08_shooting.csv
-├── notebooks/
-│ └── 02_attack_profile.ipynb
-├── plots/
-│ ├── goals_per90.png
-│ ├── shots_per90.png
-│ ├── volume_vs_conversion.png
-│ ├── radar_three_forwards.png
-│ ├── radar_ronaldo.png
-│ ├── radar_rooney.png
-│ └── radar_tevez.png
-├── reports/
-│ └── (placeholder)
-├── LICENSE
-└── README.md
+**data/**
+- raw/
+  - manutd_2007_08_matches_raw.csv
+  - manutd_2007_08_misc.csv
+  - manutd_2007_08_playing_time.csv
+  - manutd_2007_08_shooting.csv
 
+**notebooks/**
+- 02_attack_profile.ipynb
 
----
+**plots/**
+- goals_per90.png
+- shots_per90.png
+- volume_vs_conversion.png
+- radar_three_forwards.png
+- radar_ronaldo.png
+- radar_rooney.png
+- radar_tevez.png
 
-## ✔ FIX #2: Add a clean break *after* the repo block
+**reports/**
+- (placeholder)
 
-Paste this **right after** the code block:
+**LICENSE**  
+**README.md**
 
-```markdown
 ---
 
 ## How to Run the Analysis
 
-## How to Run the Analysis
+1. **Install dependencies:**
+   ```bash
+   pip install pandas numpy matplotlib
+Open the notebook:
 
-### Install dependencies:
-```bash
-pip install pandas numpy matplotlib
-
-Open the notebook
-
+bash
+Copy code
 jupyter notebook notebooks/02_attack_profile.ipynb
-
-Run all cells to reproduce the analysis:
+Run all cells to reproduce:
 
 Data cleaning and merging
 
-Metric engineering (per-90 calculations)
+Per-90 metric engineering
 
-Visualizations (bar charts, scatterplot, radar charts)
+Visualizations (bar charts, scatterplots, radar charts)
 
-### Next Steps (Future Work)
-
+Next Steps (Future Work)
 Potential extensions include:
 
 Midfield unit analysis (passing, progression, defensive actions)
@@ -231,26 +223,24 @@ Defensive unit + goalkeeper profiles
 
 Match-level xG and shot maps
 
-Streamlit or Dash interactive dashboard
+Deploying an interactive dashboard using Streamlit or Dash
 
 Data Source
-
 FBref / StatsBomb
-All player-level and match-level statistics were manually exported from:
+
+All player-level and match-level statistics (minutes, goals, shots, key passes, defensive actions, etc.) were manually exported from:
 https://fbref.com/en/
 
 Data used strictly for educational, non-commercial analysis.
 
 License
-
 This project is released under the MIT License.
 
 Contact
-
 Arnav Jain
 Master of Science in Data Science, University of Virginia
 LinkedIn: https://www.linkedin.com/in/arnavjain2026/
 
-For football-analytics collaboration or opportunities, feel free to reach out.
+If you're interested in football-analytics collaboration or opportunities, feel free to reach out.
 
 
