@@ -182,7 +182,6 @@ Overall, the attack blended high shot volume from Ronaldo with the complementary
 
 ## Repository Structure
 
-```text
 manutd-2007-08-style-profile/
 │
 ├── data/
@@ -204,7 +203,7 @@ manutd-2007-08-style-profile/
 │   └── radar_tevez.png
 │
 ├── reports/
-│   └── (placeholder for future write-ups / PDFs)
+│   └── (placeholder for future write-ups)
 │
 ├── LICENSE
 └── README.md
