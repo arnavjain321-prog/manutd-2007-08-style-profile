@@ -216,7 +216,7 @@ Metric engineering (per-90 calculations)
 
 Visualizations (bar charts, scatterplot, radar charts)
 
-Next Steps (Future Work)
+### Next Steps (Future Work)
 
 Potential extensions include:
 
