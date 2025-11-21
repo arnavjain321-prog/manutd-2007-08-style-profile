@@ -208,62 +208,59 @@ manutd-2007-08-style-profile/
 │
 ├── LICENSE
 └── README.md
-How to Run
 
-Install dependencies:
+---
+
+How to Run the Analysis
+
+Install dependencies
 
 pip install pandas numpy matplotlib
 
-Launch the notebook:
+
+Open the notebook
 
 jupyter notebook notebooks/02_attack_profile.ipynb
 
 
-Execute all cells to reproduce:
+Run all cells to reproduce:
 
-Data cleaning and merging
+Data cleaning & merging
 
-Metric computation
+Metric engineering (per-90 calculations)
 
-Visualizations (bar charts, scatterplot, radars)
+Visualizations (bar charts, scatterplot, radar charts)
 
 Next Steps (Future Work)
 
-Potential extensions:
+Potential extensions include:
 
-Build a midfield unit profile (passing, ball progression, defensive coverage)
+Adding a midfield unit analysis (passing, ball progression, defensive actions)
 
-Build defensive unit and goalkeeper profiles
+Building defensive unit & goalkeeper profiles
 
-Add match-level xG and shot maps when appropriate data is available
+Integrating match-level xG, shot maps, or pressing data
 
-Wrap the analysis in a simple Streamlit or Dash app for interactive exploration
+Wrapping the project in a Streamlit or Dash application for interactive exploration
 
-## Data Source
+Data Source
 
-**FBref / StatsBomb**  
+FBref / StatsBomb
 
-All match-level and player-level statistics (minutes played, goals, assists, shots, xG, key passes, progressive passes, defensive actions, etc.) were collected from FBref’s public StatsBomb dataset.  
-  https://fbref.com/en/
+All player-level and match-level data (minutes, goals, shots, key passes, defensive actions, etc.) were manually exported from:
 
-*Data used only for educational, non-commercial analysis.*
+https://fbref.com/en/
 
+Data used strictly for educational, non-commercial analysis.
 
-## License
+License
 
 This project is released under the MIT License.
 
 Contact
 
-Arnav Jain Master of Science in Data Science, University of Virginia LinkedIn: https://www.linkedin.com/in/arnavjain2026/
+Arnav Jain
+Master of Science in Data Science, University of Virginia
+LinkedIn: https://www.linkedin.com/in/arnavjain2026/
 
-For collaboration or football-analytics opportunities, feel free to reach out.
-
-
-
-
-
-
-
-
-
+For football-analytics collaboration or opportunities, feel free to reach out.
