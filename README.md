@@ -171,7 +171,6 @@ The balance of volume (Ronaldo), work rate (Rooney), and efficiency (Tevez) prod
 
 ## Repository Structure
 
-```text
 manutd-2007-08-style-profile/
 │
 ├── data/
@@ -194,15 +193,15 @@ manutd-2007-08-style-profile/
 │   └── radar_tevez.png
 │
 ├── reports/
-│   └── (placeholder for future write-ups)
+│   └── (placeholder)
 │
 ├── LICENSE
 └── README.md
 
-How to Run the Analysis
+## How to Run the Analysis
 
-Install dependencies
-
+### Install dependencies:
+```bash
 pip install pandas numpy matplotlib
 
 Open the notebook
